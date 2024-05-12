@@ -488,7 +488,7 @@ async function experimentInit() {
     text: '(预实验)1-请你描述图中猫的颜色品种:\na.中华田园狸花猫\nb.银虎斑美短\nc.金棕色虎斑暹罗\nd.金棕色孟加拉豹猫',
     font: 'Arial',
     units: undefined, 
-    pos: [0.3, 0.31], height: 0.035,  wrapWidth: 0.1, ori: 0.0,
+    pos: [0.3, 0.31], height: 0.031,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('black'),  opacity: undefined,
     depth: -3.0 
@@ -574,7 +574,7 @@ async function experimentInit() {
     text: '(预实验)请你描述图中猫的颜色品种:\na.中华田园狸花猫\nb.银虎斑美短\nc.金棕色虎斑暹罗\nd.金棕色孟加拉豹猫',
     font: 'Arial',
     units: undefined, 
-    pos: [0.3, 0.31], height: 0.035,  wrapWidth: 0.1, ori: 0.0,
+    pos: [0.3, 0.31], height: 0.031,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('black'),  opacity: undefined,
     depth: -1.0 
