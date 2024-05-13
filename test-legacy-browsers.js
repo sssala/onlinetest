@@ -11,7 +11,7 @@ let expInfo = {
     'sex（m/f）': '',
     '用过chatgpt吗（y/n）': '',
     '对chatgpt的信任度（0-10）': '',
-    '对自己做出的决策信心（0-10）': 'or坚定程度',
+    '有多相信自己做出的决策（0-10）': 'or坚定程度',
     'session（不用填）': '01',
 };
 
@@ -419,7 +419,7 @@ async function experimentInit() {
   text = new visual.TextStim({
     win: psychoJS.window,
     name: 'text',
-    text: '预实验\n\n【提示】由于鼠标被记录了点击时间和点击历史，\n请保持答题的连续性和专注',
+    text: '预实验\n\n【提示】由于答题行为是被记录时间和轨迹的，\n请保持答题的连续性和专注',
     font: 'Microsoft Yahei',
     units: undefined, 
     pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
@@ -760,7 +760,7 @@ async function experimentInit() {
   text_7 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_7',
-    text: '一共有五组\n\n每组共6个任务\n\n每个任务有8小题\n\n【无法回到上一页】，每页请谨慎作答～\n\n【按键被记录点击时间和历史】\n请保持答题的连续性和专注～\n\n接下来进入第一组～\n',
+    text: '一共有五组\n\n每组共6个任务\n\n每个任务有8小题\n\n【无法回到上一页】，每页请谨慎作答～\n\n【答题行为是被记录时间和轨迹的】\n请保持答题的连续性和专注～\n\n接下来进入第一组～\n',
     font: 'Microsoft Yahei',
     units: undefined, 
     pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
