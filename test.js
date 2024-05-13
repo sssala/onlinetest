@@ -687,7 +687,7 @@ async function experimentInit() {
   xinren = new visual.TextStim({
     win: psychoJS.window,
     name: 'xinren',
-    text: '8-你信任此AI报告(不)准确率：(低-高)',
+    text: '8-你相信此AI报告的准确率或不准确率吗：(低-高)',
     font: 'Arial',
     units: undefined, 
     pos: [0.3, (- 0.3)], height: 0.035,  wrapWidth: undefined, ori: 0.0,
@@ -1016,7 +1016,7 @@ async function experimentInit() {
   xinren_2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'xinren_2',
-    text: '8-你信任此AI报告(不)准确率：(低-高)',
+    text: '8-你相信此AI报告的准确率或不准确率吗：(低-高)',
     font: 'Arial',
     units: undefined, 
     pos: [0.3, (- 0.3)], height: 0.035,  wrapWidth: undefined, ori: 0.0,
@@ -1316,7 +1316,7 @@ async function experimentInit() {
   xinren_3 = new visual.TextStim({
     win: psychoJS.window,
     name: 'xinren_3',
-    text: '8-你信任此AI报告(不)准确率：(低-高)',
+    text: '8-你相信此AI报告的准确率或不准确率吗：(低-高)',
     font: 'Arial',
     units: undefined, 
     pos: [0.3, (- 0.3)], height: 0.035,  wrapWidth: undefined, ori: 0.0,
@@ -1616,7 +1616,7 @@ async function experimentInit() {
   xinren_4 = new visual.TextStim({
     win: psychoJS.window,
     name: 'xinren_4',
-    text: '8-你信任此AI报告(不)准确率：(低-高)',
+    text: '8-你相信此AI报告的准确率或不准确率吗：(低-高)',
     font: 'Arial',
     units: undefined, 
     pos: [0.3, (- 0.3)], height: 0.035,  wrapWidth: undefined, ori: 0.0,
@@ -1916,7 +1916,7 @@ async function experimentInit() {
   xinren_5 = new visual.TextStim({
     win: psychoJS.window,
     name: 'xinren_5',
-    text: '8-你信任此AI报告(不)准确率：(低-高)',
+    text: '8-你相信此AI报告的准确率或不准确率吗：(低-高)',
     font: 'Arial',
     units: undefined, 
     pos: [0.3, (- 0.3)], height: 0.035,  wrapWidth: undefined, ori: 0.0,
@@ -2216,7 +2216,7 @@ async function experimentInit() {
   xinren_6 = new visual.TextStim({
     win: psychoJS.window,
     name: 'xinren_6',
-    text: '8-你信任此AI报告(不)准确率：(低-高)',
+    text: '8-你相信此AI报告的准确率或不准确率吗：(低-高)',
     font: 'Arial',
     units: undefined, 
     pos: [0.3, (- 0.3)], height: 0.035,  wrapWidth: undefined, ori: 0.0,
